@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    gap: 12px;
+    padding: 32px;
+    
+    
+}
+
+.sidebar{
+    flex-grow: 2;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 4px;
+    color: white;
+    background-color: teal;
+
+}
+
+/* .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: auto;
+} */
+
+.main {
+    flex: 1;
+    
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 4px;
+    background-color: green;
+}
+
+.green{
+    
+}
+
+/* .yellow {
+    
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple; */
+
