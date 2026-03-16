@@ -49,6 +49,7 @@
 /* .yellow {
     
     background-color: yellow;
+    flex-grow: 1;
 }
 
 .purple {
